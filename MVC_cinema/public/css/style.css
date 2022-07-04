@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+  /* background: -webkit-linear-gradient(rgb(189, 23, 23), rgb(226, 230, 36));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+#color-body{
+    background-color: rgba(0, 0, 0, 0.89);   
+}
+
+.logo{
+    width: 30% ;
+}
+.acceuil{
+    max-height: 500px !important;
+}
+
+label{
+    color: rgb(136, 180, 217) ;
+    font-size: 1.2rem !important;
+}
+
+img{
+    width:100%;
+    height: auto;
+    margin:auto;
+    max-height: 120px !important;
+    object-fit: contain;
+}
+
+main a{
+    color:#2fa4e7;
+}
+
+main td a{
+    color:white;
+}
+
+main i{
+    color:yellow;
+}
+
+.card{
+    flex-basis: 33% !important;
+   
+}
+
+/* footer */
+footer{
+    color:white;
+    background-color: black;
+    width: 100%;
+
+}
+
+footer div a{
+    text-decoration: none;
+    color : rgb(255, 255, 255);
+    margin: 20px;
+    
+}
+
+footer small{
+    text-align: center;
+    width:100%;
+}
+
+
